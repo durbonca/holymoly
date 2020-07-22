@@ -1,0 +1,192 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    h1 {
+        font-family: 'Bitter', sans-serif;
+        font-size: 35px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: 'Bitter', sans-serif;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 250;
+        background-color: rgb(0, 0, 0);
+        color: rgb(241, 241, 241);
+    }
+    
+    .navbar_logocontainer {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    .logo {
+        max-height: 100px;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 5px 0;
+    }
+    
+    .menu {
+        text-align: center;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 0 10px;
+    }
+    
+    .menu_item {
+        font-family: 'Bitter', sans-serif;
+        font-size: 15px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        padding: 5px 20px;
+        font-weight: 700;
+        margin: 0!important;
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .hero {
+        display: flex;
+        background-color: blue;
+    }
+    
+    .brand {
+        width: 50%;
+    }
+    
+    .hr {
+        height: 15px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .whyus {
+        display: flex;
+    }
+    
+    .img_50 {
+        background-image: url(./assets/burguer1.jpeg);
+        width: 50%;
+        min-width: 50%;
+        min-height: 700px;
+        background-position: 50%;
+        background-size: cover;
+    }
+    
+    .text_50 {
+        width: auto;
+        min-height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 80px 50px;
+    }
+    
+    .boton {
+        background-color: #000;
+        user-select: none;
+        border-radius: 5px;
+        text-transform: none;
+        letter-spacing: 0;
+        color: #fff;
+        font-family: 'Bitter', sans-serif;
+        font-size: 15px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        padding: 5px 20px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    .social {
+        display: flex;
+        padding: 60px 5%;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .social_gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .social_img {
+        padding: 10px;
+        width: 22%;
+    }
+    
+    .social_img_container {
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .img_background {
+        background-image: url(https://s3.amazonaws.com/orion-eat-app-files/orioneat-prod/aLYzpn442ok8xK3ez-pozavasoscolor.jpg);
+        height: 300px;
+        background-color: #111;
+        min-height: 300px;
+        background-size: cover;
+        background-position: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer {
+        background-color: #000;
+        display: flex;
+        padding: 10% 5%;
+    }
+    
+    .col-25 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    
+    .footer_links {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .pointer:hover {
+        position: relative;
+        top: -2px;
+    }
+    
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    /* locations */
+    
+    .locations {
+        margin-top: 40px;
+    }
