@@ -29,8 +29,8 @@ document.getElementById("menu_2").addEventListener("click", function() {
             home.classList.add("hide");
             home.classList.remove("show");
         } else {
-            locations.classList.add("hide");
-            locations.classList.remove("show");
+            faq.classList.add("hide");
+            faq.classList.remove("show");
         }
     }
 })
