@@ -187,6 +187,27 @@
     }
     /* locations */
     
+    .home {
+        position: absolute;
+    }
+    
     .locations {
+        position: absolute;
         margin-top: 40px;
+    }
+    
+    .show {
+        left: 0px;
+        top: 162px;
+        right: 0px;
+    }
+    
+    .hide {
+        top: 162px;
+        left: -3000px;
+    }
+    
+    .faq {
+        position: absolute;
+        font-family: 'Bitter', sans-serif;
     }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holy Moly</title>
+    <link rel="shortcut icon" href="/assets/8Pmw7HkXwQF6sywhx-144-144.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -16,13 +17,13 @@
             <a href="/"><img class="logo" src="https://tofuu.getjusto.com/orioneat-prod-resized/YKHNDZcTNqJZZgkJz-200-undefined.webp" alt="Logo"></a>
         </div>
         <div class="menu">
-            <a class="menu_item" href="/pedir">ORDER NOW</a>
-            <a class="menu_item" href="/sucursales">LOCATIONS</a>
-            <a class="menu_item" href="/faq">FAQ</a>
+            <a id="menu_1" class="menu_item" href="#">ORDER NOW</a>
+            <a id="menu_2" class="menu_item" href="#">LOCATIONS</a>
+            <a id="menu_3" class="menu_item" href="#">FAQ</a>
         </div>
     </nav>
 
-    <main class="home">
+    <main id="home" class="home show">
         <div class="hero">
             <div class="brand"></div>
             <div class="brand"></div>
@@ -74,11 +75,33 @@
         <section class="img_background">
         </section>
 
+
+        <footer>
+            <div class="col-25"><img class="logo" src="https://tofuu.getjusto.com/orioneat-prod-resized/YKHNDZcTNqJZZgkJz-200-undefined.webp" alt="Logo"></div>
+            <div class="col-25"></div>
+            <div class="col-25">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a class="footer_links" href="">instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-25">
+                <h2>Mi cuenta</h2>
+                <ul>
+                    <li><a class="footer_links" href="">pedir</a></li>
+                    <li><a class="footer_links" href="">Mis pedidos</a></li>
+                    <li><a class="footer_links" href="">Mis direcciones</a></li>
+                    <li><a class="footer_links" href="">Cambiar contraseña</a></li>
+                </ul>
+            </div>
+
+        </footer>
+
     </main>
 
-    <main class="locations">
-        <div class="row justify-content-md-center">
-            <div class="col-3 ">
+    <main id="locations" class="locations hide">
+        <div class="row justify-content-around mb-5">
+            <div class="col-5">
                 <div class="card">
                     <img src="assets\tarrias.webp" class="card-img-top" alt="">
                     <div class="card-body">
@@ -88,9 +111,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="col-3">
+            <div class="col-5">
                 <div class="card">
                     <img src="assets\elotro.webp" class="card-img-top" alt="">
                     <div class="card-body">
@@ -102,37 +123,86 @@
             </div>
         </div>
 
+        <footer>
+            <div class="col-25"><img class="logo" src="https://tofuu.getjusto.com/orioneat-prod-resized/YKHNDZcTNqJZZgkJz-200-undefined.webp" alt="Logo"></div>
+            <div class="col-25"></div>
+            <div class="col-25">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a class="footer_links" href="">instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-25">
+                <h2>Mi cuenta</h2>
+                <ul>
+                    <li><a class="footer_links" href="">pedir</a></li>
+                    <li><a class="footer_links" href="">Mis pedidos</a></li>
+                    <li><a class="footer_links" href="">Mis direcciones</a></li>
+                    <li><a class="footer_links" href="">Cambiar contraseña</a></li>
+                </ul>
+            </div>
 
+        </footer>
 
     </main>
 
 
 
-    <footer>
-        <div class="col-25"><img class="logo" src="https://tofuu.getjusto.com/orioneat-prod-resized/YKHNDZcTNqJZZgkJz-200-undefined.webp" alt="Logo"></div>
-        <div class="col-25"></div>
-        <div class="col-25">
-            <h2>Redes sociales</h2>
-            <ul>
-                <li><a class="footer_links" href="">instagram</a></li>
-            </ul>
-        </div>
-        <div class="col-25">
-            <h2>Mi cuenta</h2>
-            <ul>
-                <li><a class="footer_links" href="">pedir</a></li>
-                <li><a class="footer_links" href="">Mis pedidos</a></li>
-                <li><a class="footer_links" href="">Mis direcciones</a></li>
-                <li><a class="footer_links" href="">Cambiar contraseña</a></li>
-            </ul>
+    <main id="faq" class="faq hide">
+        <div class="row justify-content-center mt-5 mb-5">
+            <div class="col-7">
+                <h3 class="text-center mb-5 bold">FAQ</h3>
+                <h5>¿Donde están ubicados?</h5>
+                <p>Nuestro local más pequeño está ubicado en Merced 461, y si quieres disfrutar de un Chop con tus amigos , te aconsejamos ir al Holy Moly ubicado cerca de Lastarria.</p>
+
+                <h5>¿Tienen opciones vegetarianas?</h5>
+                <p> ¡Si ! , tenemos cuatro opciones : Porotos negros, Garbanzos , lentejas y por último Thai ( leche de coco, curry y porotos rojos ).</p>
+
+                <h5>¿Tienen Happy Hour?</h5>
+                <p> Si , pero este cambia constantemente. Les recomendamos siempre pendientes de nuestras redes sociales.</p>
+
+                <h5>¿Puedo hacer reservas?</h5>
+                <p> Por supuesto , comunícate directamente a nuestro número telefónico, danos tus datos , número de personas, la hora y te confirmaremos inmediatamente.</p>
+
+                <h5> ¿Abren los domingos?</h5>
+                <p> Si, en Merced 461 de 13:00hrs a 16:30hrs y de 17:30hrs a 22:00hrs. Y en Merced 318 de 14:00hrs a 22:00hrs.</p>
+
+                <h5>¿Puedo pedir para llevar?</h5>
+                <p> Puedes comunicarte a nuestro número telefónico, hacer tu pedido y recoger en tienda . O directamente por nuestra página web.</p>
+
+                <h5>¿Tienen postres?</h5>
+                <p> Por ahora tenemos un Milkshake de Oreo , que acompañado de una hamburguesa y papas fritas queda perfecto.</p>
+            </div>
         </div>
 
-    </footer>
+        <footer>
+            <div class="col-25"><img class="logo" src="https://tofuu.getjusto.com/orioneat-prod-resized/YKHNDZcTNqJZZgkJz-200-undefined.webp" alt="Logo"></div>
+            <div class="col-25"></div>
+            <div class="col-25">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a class="footer_links" href="">instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-25">
+                <h2>Mi cuenta</h2>
+                <ul>
+                    <li><a class="footer_links" href="">pedir</a></li>
+                    <li><a class="footer_links" href="">Mis pedidos</a></li>
+                    <li><a class="footer_links" href="">Mis direcciones</a></li>
+                    <li><a class="footer_links" href="">Cambiar contraseña</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </main>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
