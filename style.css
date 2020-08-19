@@ -68,11 +68,18 @@
     
     .hero {
         display: flex;
-        background-color: blue;
+    }
+    
+    .hero_logo {
+        width: 100%;
     }
     
     .brand {
         width: 50%;
+    }
+    
+    .brand_1 {
+        background-color: black;
     }
     
     .hr {
