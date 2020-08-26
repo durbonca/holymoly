@@ -31,7 +31,6 @@
     }
     
     .navbar_logocontainer {
-        height: 120px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -46,10 +45,11 @@
     }
     
     .menu {
+        height: 150px;
         text-align: center;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        padding: 0 0 10px;
+        padding: 40px 0 10px;
     }
     
     .menu_item {
